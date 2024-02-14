@@ -5,6 +5,26 @@ body{
     overflow: hidden;
     background: #fae1dd;
 }
+/* Agrega estilos al enlace */
+a {
+    color: red; /* Cambia el color del texto a rojo */
+    font-size: 18px; /* Cambia el tamaño del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    border: 2px solid red; /* Agrega un borde rojo */
+    padding: 5px 10px; /* Agrega espacio alrededor del texto */
+    border-radius: 10px; /* Hace que los bordes sean redondeados */
+    background-image: url('corazon.png'); /* Usa una imagen de corazón como fondo */
+    background-size: 20px; /* Ajusta el tamaño de la imagen de fondo */
+    background-position: 95% center; /* Ajusta la posición de la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+}
+
+/* Estilos al pasar el ratón sobre el enlace */
+a:hover {
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: red; /* Cambia el color de fondo a rojo */
+}
+
 .container{
     position: relative;
 }
